@@ -49,11 +49,11 @@ const Curriculum: React.FC = () => {
   };
 
   return (
-    <section id="curriculum" className="py-20 bg-[rgb(82,122,202)] relative">
+    <section id="curriculum" className="py-20 bg-[rgb(30,58,138)] relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-4 mb-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900">Curriculum & Titulaciones</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-white">Curriculum & Titulaciones</h2>
             <img
               src="/archivos/foto profesional.JPG"
               alt="Aitor Montalbán"
@@ -108,7 +108,7 @@ const Curriculum: React.FC = () => {
 
         {/* Other Certs Carousel */}
         <div className="relative">
-          <h3 className="text-xl font-bold text-slate-700 mb-6 pl-2 border-l-4 border-slate-300">Otras Certificaciones</h3>
+          <h3 className="text-xl font-bold text-white mb-6 pl-2 border-l-4 border-white/50">Otras Certificaciones</h3>
 
           <div className="relative group">
             <button

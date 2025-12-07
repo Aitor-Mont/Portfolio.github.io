@@ -241,11 +241,11 @@ const Portfolio: React.FC = () => {
   ];
 
   return (
-    <section id="portfolio" className="py-20 bg-[rgb(82,122,202)]">
+    <section id="portfolio" className="py-20 bg-[rgb(30,58,138)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-end mb-12">
           <div className="mb-6 md:mb-0">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Portfolio</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Portfolio</h2>
             <div className="h-1 w-20 bg-primary-600 rounded-full"></div>
           </div>
           <a

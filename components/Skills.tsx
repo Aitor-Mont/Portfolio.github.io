@@ -31,12 +31,12 @@ const Skills: React.FC = () => {
   ];
 
   return (
-    <section id="skills" className="py-20 bg-[rgb(82,122,202)]">
+    <section id="skills" className="py-20 bg-[rgb(30,58,138)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Mis Habilidades</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Mis Habilidades</h2>
           <div className="h-1 w-20 bg-primary-600 mx-auto rounded-full"></div>
-          <p className="mt-4 text-slate-600 max-w-2xl mx-auto">
+          <p className="mt-4 text-white/80 max-w-2xl mx-auto">
             Un conjunto de herramientas completo para abordar proyectos de principio a fin.
           </p>
         </div>
