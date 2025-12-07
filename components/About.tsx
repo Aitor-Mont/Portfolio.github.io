@@ -3,7 +3,7 @@ import { Terminal, Cpu, Building2 } from 'lucide-react';
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-20 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/archivos/fondo.jpg')" }}>
+    <section id="about" className="py-20 bg-[#345AA8]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Sobre mí</h2>
