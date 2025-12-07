@@ -241,7 +241,7 @@ const Portfolio: React.FC = () => {
   ];
 
   return (
-    <section id="portfolio" className="py-20 bg-[#0a2540]">
+    <section id="portfolio" className="py-20 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/archivos/fondo.jpg')" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-end mb-12">
           <div className="mb-6 md:mb-0">
