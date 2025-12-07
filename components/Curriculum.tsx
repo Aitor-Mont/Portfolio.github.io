@@ -9,10 +9,10 @@ const Curriculum: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const otherCerts = [
-    { title: "Programación con phyton", issuer: "Google / Coursera", date: "Feb 2021", img: "./archivos/certificado michigan.png" },
-    { title: "Lenguajes de programación", issuer: "INEM", date: "2002", img: "./archivos/Lenguajes de programación.jpg" },
-    { title: "Programacion, redes y telecomunicaciones", issuer: "Centro de Formación 10R", date: "1999", img: "./archivos/Master en redes.jpg" },
-    { title: "Servicios de presentacion en entorno gráfico", issuer: "IFES", date: "2002", img: "./archivos/servicios de presentacion en entorno gráfico.jpg" },
+    { title: "Programación con phyton", issuer: "Google / Coursera", date: "Feb 2021", img: "/archivos/certificado michigan.png" },
+    { title: "Lenguajes de programación", issuer: "INEM", date: "2002", img: "/archivos/Lenguajes de programación.jpg" },
+    { title: "Programacion, redes y telecomunicaciones", issuer: "Centro de Formación 10R", date: "1999", img: "/archivos/Master en redes.jpg" },
+    { title: "Servicios de presentacion en entorno gráfico", issuer: "IFES", date: "2002", img: "/archivos/servicios de presentacion en entorno gráfico.jpg" },
   ];
 
   const scrollCarousel = (direction: 'left' | 'right') => {
@@ -55,7 +55,7 @@ const Curriculum: React.FC = () => {
           <div className="flex items-center justify-center gap-4 mb-4">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900">Curriculum & Titulaciones</h2>
             <img
-              src="./archivos/foto profesional.JPG"
+              src="/archivos/foto profesional.JPG"
               alt="Aitor Montalbán"
               className="w-32 h-32 rounded-full object-cover border-4 border-primary-200 shadow-lg"
               onError={(e) => e.currentTarget.style.display = 'none'}
@@ -66,7 +66,7 @@ const Curriculum: React.FC = () => {
 
         <div className="text-center mb-16">
           <a
-            href="./archivos/Curriculum Full Stack.pdf"
+            href="/archivos/Curriculum Full Stack.pdf"
             download
             className="inline-flex items-center gap-2 px-8 py-4 bg-primary-600 text-white rounded-full font-bold shadow-lg hover:bg-primary-700 hover:shadow-xl transition-all transform hover:-translate-y-1"
           >
@@ -80,9 +80,9 @@ const Curriculum: React.FC = () => {
           <div className="bg-white rounded-2xl p-8 shadow-md border-l-8 border-primary-500 flex flex-col md:flex-row items-center gap-6">
             <div
               className="w-32 h-32 flex-shrink-0 rounded-lg overflow-hidden shadow-lg cursor-pointer hover:scale-105 transition-transform"
-              onClick={() => setSelectedImage("./archivos/Aitor Montalbán full stack1.jpg")}
+              onClick={() => setSelectedImage("/archivos/Aitor Montalbán full stack1.jpg")}
             >
-              <img src="./archivos/Aitor Montalbán full stack1.jpg" alt="Full Stack Certificate" className="w-full h-full object-cover" />
+              <img src="/archivos/Aitor Montalbán full stack1.jpg" alt="Full Stack Certificate" className="w-full h-full object-cover" />
             </div>
             <div className="text-center md:text-left">
               <h3 className="text-2xl font-bold text-slate-900">Full Stack Web Developer</h3>
@@ -94,9 +94,9 @@ const Curriculum: React.FC = () => {
           <div className="bg-white rounded-2xl p-8 shadow-md border-l-8 border-blue-800 flex flex-col md:flex-row items-center gap-6">
             <div
               className="w-32 h-32 flex-shrink-0 rounded-lg overflow-hidden shadow-lg cursor-pointer hover:scale-105 transition-transform"
-              onClick={() => setSelectedImage("./archivos/Programación NET.png")}
+              onClick={() => setSelectedImage("/archivos/Programación NET.png")}
             >
-              <img src="./archivos/Programación NET.png" alt=".NET Certificate" className="w-full h-full object-cover" />
+              <img src="/archivos/Programación NET.png" alt=".NET Certificate" className="w-full h-full object-cover" />
             </div>
             <div className="text-center md:text-left">
               <h3 className="text-2xl font-bold text-slate-900">Programación .NET</h3>

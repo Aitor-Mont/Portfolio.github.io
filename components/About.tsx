@@ -16,7 +16,7 @@ const About: React.FC = () => {
             {/* Childhood/Atari Photo */}
             <div className="w-full max-w-md rounded-xl overflow-hidden shadow-2xl border-4 border-primary-200 hover:shadow-primary-300/50 transition-all duration-300 hover:scale-105">
               <img
-                src="./archivos/bio.jpg"
+                src="/archivos/bio.jpg"
                 alt="Aitor joven con Atari ST"
                 className="w-full h-auto object-cover"
               />

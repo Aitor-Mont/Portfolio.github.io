@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0 bg-[#0080ff] flex items-center justify-center overflow-hidden">
         <img
-          src="./archivos/imagen_landing.png"
+          src="/archivos/imagen_landing.png"
           alt="Background"
           className="w-full h-auto"
         />

@@ -208,8 +208,8 @@ const Portfolio: React.FC = () => {
       longDescription: "Una solución completa de comercio electrónico desarrollada desde cero. Incluye gestión de inventario en tiempo real, procesamiento de pagos seguro con Stripe, y un panel de administración intuitivo para gestionar productos y pedidos. La arquitectura asegura escalabilidad y rendimiento.",
       technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe API", "Redux"],
       images: [
-        "./archivos/gameflow.jpg",
-        "./archivos/gameflow2.jpeg"
+        "/archivos/gameflow.jpg",
+        "/archivos/gameflow2.jpeg"
       ],
       repoUrl: "https://github.com/Aitor-Mont",
       demoUrl: "https://example.com"
@@ -221,8 +221,8 @@ const Portfolio: React.FC = () => {
       longDescription: "Sistema de gestión de proyectos basado en metodología Kanban. Permite a los equipos colaborar en tiempo real, asignar tareas, establecer fechas límite y visualizar el progreso mediante gráficos. Implementa autenticación segura y gestión de roles de usuario.",
       technologies: ["Angular", ".NET Core", "SQL Server", "SignalR", "Azure AD"],
       images: [
-        "./archivos/Kinetic.png",
-        "./archivos/kinetic2.png"
+        "/archivos/Kinetic.png",
+        "/archivos/kinetic2.png"
       ],
       repoUrl: "https://github.com/Aitor-Mont"
     },
@@ -233,8 +233,8 @@ const Portfolio: React.FC = () => {
       longDescription: "Dashboard interactivo para visualización de métricas empresariales clave (KPIs). Consume datos de múltiples fuentes a través de APIs REST y los presenta en gráficos dinámicos y tablas filtrables. Optimizado para rendimiento con grandes volúmenes de datos.",
       technologies: ["React", "D3.js", "Python", "Flask", "PostgreSQL", "Docker"],
       images: [
-        "./archivos/Prisma.jpeg",
-        "./archivos/prisma2.jpg"
+        "/archivos/Prisma.jpeg",
+        "/archivos/prisma2.jpg"
       ],
       repoUrl: "https://github.com/Aitor-Mont"
     }

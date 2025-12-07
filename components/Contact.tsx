@@ -65,7 +65,7 @@ const Contact: React.FC = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0 opacity-20">
         <img
-          src="./archivos/contacto.jpg"
+          src="/archivos/contacto.jpg"
           alt="Contact Background"
           className="w-full h-full object-cover"
         />
