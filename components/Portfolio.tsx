@@ -24,7 +24,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, onOpen }) => {
 
   return (
     <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-slate-100 flex flex-col h-full hover:shadow-xl transition-shadow duration-300">
-      <div className="relative group cursor-pointer" onClick={() => onOpen(project)}>
+      <div className="relative group">
         <div
           ref={scrollRef}
           className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide h-56 bg-slate-200"
