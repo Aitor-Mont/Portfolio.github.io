@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-lg font-medium transition-colors hover:text-primary-600 text-slate-900"
+                className="text-lg font-medium transition-colors hover:text-primary-300 text-white"
               >
                 {link.name}
               </a>
@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-base font-medium transition-colors hover:text-primary-600 text-slate-900"
+                className="text-base font-medium transition-colors hover:text-primary-300 text-white"
               >
                 {link.name}
               </a>
@@ -60,7 +60,7 @@ const Navbar: React.FC = () => {
           <div className="md:hidden flex items-center z-10 ml-auto">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-md text-slate-900"
+              className="p-2 rounded-md text-white"
             >
               {isOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
