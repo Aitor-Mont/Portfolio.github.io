@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-lg font-medium transition-colors hover:text-primary-300 text-white"
+                className="text-lg font-medium transition-colors hover:text-primary-300 text-white bg-[rgb(30,58,138)] px-2 py-1 rounded"
               >
                 {link.name}
               </a>
@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-base font-medium transition-colors hover:text-primary-300 text-white"
+                className="text-base font-medium transition-colors hover:text-primary-300 text-white bg-[rgb(30,58,138)] px-2 py-1 rounded"
               >
                 {link.name}
               </a>
