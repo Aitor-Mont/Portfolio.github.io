@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
           <div></div>
 
           {/* Desktop Menu - Absolute Left */}
-          <div className="hidden lg:flex items-center space-x-8 absolute left-0 ml-32">
+          <div className="hidden lg:flex items-center space-x-8 absolute left-0 ml-8">
             {navLinks.map((link) => (
               <a
                 key={link.name}
