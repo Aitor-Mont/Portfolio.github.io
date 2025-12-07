@@ -3,7 +3,7 @@ import { Terminal, Cpu, Building2 } from 'lucide-react';
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-20 bg-[#223149]">
+    <section id="about" className="py-20 bg-[rgb(52,92,172)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Sobre mí</h2>
@@ -28,16 +28,16 @@ const About: React.FC = () => {
 
           {/* Text Column */}
           <div className="lg:pl-10 mt-10 lg:mt-0">
-            <h3 className="text-2xl font-bold text-primary-900 mb-6 flex items-center gap-2">
+            <h3 className="text-2xl font-bold text-black mb-6 flex items-center gap-2">
               <Terminal className="text-primary-600" />
               Pasión por el código
             </h3>
 
-            <p className="text-slate-600 leading-relaxed mb-6 text-lg">
-              Apasionado de la programación desde niño, comencé mi viaje tecnológico programando en un <span className="font-semibold text-primary-700">Atari ST</span> con tan solo 13 años. Lo que empezó como curiosidad se convirtió en mi profesión y vocación.
+            <p className="text-black leading-relaxed mb-6 text-lg">
+              Apasionado de la programación desde niño, comencé mi viaje tecnológico programando en un <span className="font-semibold text-black">Atari ST</span> con tan solo 13 años. Lo que empezó como curiosidad se convirtió en mi profesión y vocación.
             </p>
 
-            <p className="text-slate-600 leading-relaxed mb-8 text-lg">
+            <p className="text-black leading-relaxed mb-8 text-lg">
               Desde entonces, no he parado de estar unido al mundo de la informática y el desarrollo de software, evolucionando con las tecnologías y enfrentando nuevos retos cada día.
             </p>
 
