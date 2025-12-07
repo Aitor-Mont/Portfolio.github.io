@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
   ];
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-transparent backdrop-blur-md shadow-md py-2' : 'bg-transparent py-4'}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 bg-transparent ${scrolled ? 'py-2' : 'py-4'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-14 relative">
 
@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className={`text-lg font-medium transition-colors hover:text-primary-400 ${scrolled ? 'text-slate-700' : 'text-slate-200'}`}
+                className="text-lg font-medium transition-colors hover:text-primary-600 text-slate-900"
               >
                 {link.name}
               </a>
@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className={`text-base font-medium transition-colors hover:text-primary-400 ${scrolled ? 'text-slate-700' : 'text-slate-200'}`}
+                className="text-base font-medium transition-colors hover:text-primary-600 text-slate-900"
               >
                 {link.name}
               </a>
@@ -60,7 +60,7 @@ const Navbar: React.FC = () => {
           <div className="md:hidden flex items-center z-10 ml-auto">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className={`p-2 rounded-md ${scrolled ? 'text-slate-700' : 'text-white'}`}
+              className="p-2 rounded-md text-slate-900"
             >
               {isOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
